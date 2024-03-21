@@ -1,0 +1,42 @@
+*{
+  margin: 10px;
+  font: poppins;
+  color: white;
+}
+header{
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+.introduction{
+  background-color: grey;
+  text-align: left;
+  padding: 10px;
+}
+.introduction p{
+  text-align: left;
+}
+.skills{
+  background-color: grey;
+  text-align: left;
+  padding:10px;
+}
+.skills li{
+  text-align: left;
+}
+.contact{
+  background-color: black;
+}
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
+  header {
+    padding: 15px;
+  }
+  
+  .introduction,
+  .skills,
+  .contact {
+    padding: 15px;
+  }
+}
